@@ -6,6 +6,7 @@
 
 ```
 git clone https://github.com/wiedymi/grafee-starter.git
+cd grafee-starter
 yarn install
 yarn dev
 
