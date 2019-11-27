@@ -8,7 +8,11 @@
 git clone https://github.com/wiedymi/grafee-starter.git
 yarn install
 yarn dev
+
+🚀  GraphQL: http://localhost:4040/graphql
+🚀  Subscriptions: ws://localhost:4040/graphql
 ```
+
 
 ### Technologies
 
