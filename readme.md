@@ -5,7 +5,7 @@
 ### Getting started
 
 ```
-yarn add @grafee/starter
+git clone https://github.com/wiedymi/grafee-starter.git
 ```
 
 ### Technologies
