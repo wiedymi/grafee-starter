@@ -12,7 +12,6 @@ const user = async (root, { username }, { db, validationErrors }) => {
 
 const users = async (root, { offset, limit }, { db }) => {
   const users = await db.paginate({}, { offset, limit })
-  console.log(users)
 
   return users
 }
