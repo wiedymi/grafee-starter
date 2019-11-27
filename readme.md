@@ -6,6 +6,8 @@
 
 ```
 git clone https://github.com/wiedymi/grafee-starter.git
+yarn install
+yarn dev
 ```
 
 ### Technologies
