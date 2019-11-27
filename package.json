@@ -1,0 +1,31 @@
+{
+  "name": "@grafee/starter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "pm2 start ecosystem.json",
+    "stop": "pm2 stop ecosystem.json",
+    "dev": "nodemon -e js,graphql,env -w .env -w . node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wiedymi/grafee.git"
+  },
+  "author": "wiedymi",
+  "dependencies": {
+    "@grafee/core": "latest",
+    "@grafee/mongo": "latest",
+    "@grafee/shield": "latest",
+    "bcrypt": "^3.0.7",
+    "jsonwebtoken": "^8.5.1"
+  },
+  "devDependencies": {
+    "eslint": "latest",
+    "nodemon": "latest"
+  },
+  "_moduleAliases": {
+    "@": "./src",
+    "#": "./src/modules"
+  },
+  "license": "MIT"
+}
