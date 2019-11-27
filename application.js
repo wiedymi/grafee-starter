@@ -1,4 +1,4 @@
-import { ApolloServer } from '@grafee/core'
+import { GrafeeServer } from '@grafee/core'
 import { setup } from '@grafee/mongo'
 import { auth } from '@/passport'
 import schema from '@/modules'
@@ -8,7 +8,7 @@ setup('mongodb://localhost:27017/grafee?authSource=admin&w=majority')
 
 const middlewares = [auth, access]
 
-const application = ApolloServer({
+const application = GrafeeServer({
   schema,
   middlewares,
   engine: {

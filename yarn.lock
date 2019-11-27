@@ -57,9 +57,9 @@
     regenerator-runtime "^0.13.2"
 
 "@grafee/core@latest":
-  version "1.0.6"
-  resolved "https://registry.yarnpkg.com/@grafee/core/-/core-1.0.6.tgz#c0e573d13f295207fabfa00ec2ab65d4b6b87dee"
-  integrity sha512-Ycpzey51il7dWt0EV6NaItYHPpfgXhKBjUgW7bgQhJp2xaS8ppkJ7+eq7gx2iSPizsRKc0/AN2ofevRwfYtS4A==
+  version "1.0.12"
+  resolved "https://registry.yarnpkg.com/@grafee/core/-/core-1.0.12.tgz#cb7aecc9bd27c1a799ec530ee98189f2645e21d8"
+  integrity sha512-ENIQdKA9++iRaThxGdhy/yvcMtvOM3bvcSp7hC2NDzRxmO5LMyleV6ernGF9AHDOOp1kBdWSrtO/JKS5w1Lrdw==
   dependencies:
     "@graphql-modules/core" latest
     apollo-server-express latest
@@ -73,9 +73,9 @@
     module-alias latest
 
 "@grafee/mongo@latest":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@grafee/mongo/-/mongo-1.0.1.tgz#70c482bbb20aaa17e0b42d43c0ecbeee193db4a3"
-  integrity sha512-eaHJg6oQaNaMQNOCI0K5p2dqbPzRNe1ZP1we0vgmdojOul2pAHiU+PPn0+ls+uXY5SQhz0IESfFNpcMLpdkoGw==
+  version "1.0.8"
+  resolved "https://registry.yarnpkg.com/@grafee/mongo/-/mongo-1.0.8.tgz#c1ffda5414509e5bef1ff98f57cf002955bbea0b"
+  integrity sha512-Qxdnjn3YttwKghJnF16u/+GsJv267Tutd7oFSESjMEPl70CBgaHBjDoY9sOjkWcgRzVK5XISkCv+941nB6M0Zw==
   dependencies:
     mongoose latest
     mongoose-aggregate-paginate-v2 latest
@@ -83,9 +83,9 @@
     uuid latest
 
 "@grafee/shield@latest":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@grafee/shield/-/shield-1.0.0.tgz#25dc06e8242332508a9ef36606a55b84a13dc51e"
-  integrity sha512-8pWi5RniNyt9oY4lV3ESMzM/WtPioiYF+0G5CGSh4X64gCe/LSXkodatZTKycpfmdLO4yJtXwcitR5nFsmcleA==
+  version "1.0.8"
+  resolved "https://registry.yarnpkg.com/@grafee/shield/-/shield-1.0.8.tgz#a42fd051dd833515d80248c64725c98d5bd9424f"
+  integrity sha512-jS/ajmsqfSpPanVQDKNZCXSXXomXHzk9wI/r32fbZKMassIy/M2WDjhKCGgQzpkjGW5joDV7z3/UToOUJR7oUw==
   dependencies:
     graphql-shield latest
 
@@ -306,9 +306,9 @@
     "@types/koa" "*"
 
 "@types/koa@*":
-  version "2.0.52"
-  resolved "https://registry.yarnpkg.com/@types/koa/-/koa-2.0.52.tgz#7dd11de4189ab339ad66c4ccad153716b14e525f"
-  integrity sha512-cp/GTOhOYwomlSKqEoG0kaVEVJEzP4ojYmfa7EKaGkmkkRwJ4B/1VBLbQZ49Z+WJNvzXejQB/9GIKqMo9XLgFQ==
+  version "2.11.0"
+  resolved "https://registry.yarnpkg.com/@types/koa/-/koa-2.11.0.tgz#394a3e9ec94f796003a6c8374b4dbc2778746f20"
+  integrity sha512-Hgx/1/rVlJvqYBrdeCsS7PDiR2qbxlMt1RnmNWD4Uxi5FF9nwkYqIldo7urjc+dfNpk+2NRGcnAYd4L5xEhCcQ==
   dependencies:
     "@types/accepts" "*"
     "@types/cookies" "*"
@@ -333,14 +333,14 @@
   integrity sha512-tHq6qdbT9U1IRSGf14CL0pUlULksvY9OZ+5eEgl1N7t+OA3tGvNpxJCzuKQlsNgCVwbAs670L1vcVQi8j9HjnA==
 
 "@types/node@*":
-  version "12.12.12"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-12.12.12.tgz#529bc3e73dbb35dd9e90b0a1c83606a9d3264bdb"
-  integrity sha512-MGuvYJrPU0HUwqF7LqvIj50RZUX23Z+m583KBygKYUZLlZ88n6w28XRNJRJgsHukLEnLz6w6SvxZoLgbr5wLqQ==
+  version "12.12.14"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-12.12.14.tgz#1c1d6e3c75dba466e0326948d56e8bd72a1903d2"
+  integrity sha512-u/SJDyXwuihpwjXy7hOOghagLEV1KdAST6syfnOk6QZAMzZuWZqXy5aYYZbh8Jdpd4escVFP0MvftHNDb9pruA==
 
 "@types/node@^10.1.0":
-  version "10.17.5"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-10.17.5.tgz#c1920150f7b90708a7d0f3add12a06bc9123c055"
-  integrity sha512-RElZIr/7JreF1eY6oD5RF3kpmdcreuQPjg5ri4oQ5g9sq7YWU8HkfB3eH8GwAwxf5OaCh0VPi7r4N/yoTGelrA==
+  version "10.17.6"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-10.17.6.tgz#1aaabd6f6470a6ac3824ab1e94d731ca1326d93d"
+  integrity sha512-0a2X6cgN3RdPBL2MIlR6Lt0KlM7fOFsutuXcdglcOq6WvLnYXgPQSh0Mx6tO1KCAE8MxbHSOSTWDoUxRq+l3DA==
 
 "@types/range-parser@*":
   version "1.2.3"
@@ -356,9 +356,9 @@
     "@types/mime" "*"
 
 "@types/ws@^6.0.0":
-  version "6.0.3"
-  resolved "https://registry.yarnpkg.com/@types/ws/-/ws-6.0.3.tgz#b772375ba59d79066561c8d87500144d674ba6b3"
-  integrity sha512-yBTM0P05Tx9iXGq00BbJPo37ox68R5vaGTXivs6RGh/BQ6QP5zqZDGWdAO6JbRE/iR1l80xeGAwCQS2nMV9S/w==
+  version "6.0.4"
+  resolved "https://registry.yarnpkg.com/@types/ws/-/ws-6.0.4.tgz#7797707c8acce8f76d8c34b370d4645b70421ff1"
+  integrity sha512-PpPrX7SZW9re6+Ha8ojZG4Se8AZXgf0GK6zmfqEuCsY49LFDNXO3SByp44X3dFEqtB73lkCDAdUazhAjVPiNwg==
   dependencies:
     "@types/node" "*"
 
@@ -914,9 +914,9 @@ cookie@0.4.0:
   integrity sha512-+Hp8fLp57wnUSt0tY0tHEXh4voZRDnoIrZPqlo3DPiI4y9lwg/jqx+1Om94/W6ZaPDOUbnjOt/99w66zk+l1Xg==
 
 core-js@^3.0.1:
-  version "3.4.2"
-  resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.4.2.tgz#ee2b1a60b50388d8ddcda8cdb44a92c7a9ea76df"
-  integrity sha512-bUTfqFWtNKWp73oNIfRkqwYZJeNT3lstzZcAkhhiuvDraRSgOH1/+F9ZklbpR4zpdKuo4cpXN8tKP7s61yjX+g==
+  version "3.4.4"
+  resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.4.4.tgz#e3d422f8a51adc4cae2bfa04cef26a5ccc046d29"
+  integrity sha512-vKea1DrcLA80Hrfc7AQgfoGvEaByfR5mH08t+zuWOWY94TFBmabdEL56mUbcijvadG9RxsXR2gUUFrfj4/iTcA==
 
 core-util-is@~1.0.0:
   version "1.0.2"
