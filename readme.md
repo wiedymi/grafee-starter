@@ -8,11 +8,19 @@
 git clone https://github.com/wiedymi/grafee-starter.git
 cd grafee-starter
 yarn install
+```
+Change the mongodb url in application.js
+```js
+setup('mongodb://localhost:27017/grafee?authSource=admin&w=majority')
+```
+And then
+```
 yarn dev
 
 🚀  GraphQL: http://localhost:4040/graphql
 🚀  Subscriptions: ws://localhost:4040/graphql
 ```
+
 
 
 ### Technologies
