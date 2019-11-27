@@ -1,6 +1,6 @@
 # Grafee Back-end Starter
 
-**Grafee** - is the easiest way to create an awesome GraphQL API.
+**Grafee** is the easiest way to create an awesome GraphQL API.
 
 ### Getting started
 
