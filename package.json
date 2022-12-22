@@ -17,7 +17,7 @@
     "@grafee/mongo": "latest",
     "@grafee/shield": "latest",
     "bcrypt": "^5.0.0",
-    "jsonwebtoken": "^8.5.1"
+    "jsonwebtoken": "^9.0.0"
   },
   "devDependencies": {
     "eslint": "latest",
